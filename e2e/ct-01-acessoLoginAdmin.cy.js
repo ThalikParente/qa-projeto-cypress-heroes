@@ -7,6 +7,6 @@ describe('CT-01 - Acesso com login Admin',() => {
 it('Acesso com sucesso com login Admin', () => {
     loginPage.accessHomePage()
     loginPage.accessLoginPage()
-    loginPage.loginWithAdminUser(userData.userAdmin.username, userData.userAdmin.password)
+    loginPage.login(userData.userAdmin.username, userData.userAdmin.password)
     })
 })

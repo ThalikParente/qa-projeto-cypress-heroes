@@ -18,13 +18,7 @@ class LoginPage {
         cy.get(this.selectorsList().loginButton).click()
     }
 
-    loginWithAdminUser(username, password) {
-        cy.get(this.selectorsList().emailField).type(username)
-        cy.get(this.selectorsList().passwordField).type(password)
-        cy.get(this.selectorsList().signInButton).click()
-    }
-
-    loginWithDefaultUser(username, password) {
+    login(username, password) {
         cy.get(this.selectorsList().emailField).type(username)
         cy.get(this.selectorsList().passwordField).type(password)
         cy.get(this.selectorsList().signInButton).click()

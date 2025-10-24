@@ -7,6 +7,7 @@ const likeButtonPage = new LikeButtonPage()
 describe('CT-03 - Clicar no botão curtir',() => {
 it('Clicar no botão curtir, sem logar na ferramenta', () => {
     loginPage.accessHomePage()
-    likeButtonPage.LikeButton()
+    likeButtonPage.clickLikeButton()
+    likeButtonPage.checkLoginAlert()
     })
 })
