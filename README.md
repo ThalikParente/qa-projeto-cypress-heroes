@@ -81,20 +81,21 @@ Os casos de teste manuais foram elaborados previamente e serviram de base para a
 
 ### Exemplos de Casos de teste
 
-| ID | Nome | Descrição |
-|----|------|------------|
-| [CT-01](./casosDeTeste/ct-01-login-admin.md) | Login Admin | Verifica se o login é realizado corretamente com usuário administrador. |
-| [CT-02](./casosDeTeste/ct-02-login-comum.md) | Login Comum | Garante o acesso com credenciais de usuário padrão. |
-| [CT-03](./casosDeTeste/ct-03-curtir-sem-login.md) | Botão Curtir (não logado) | Verifica se o sistema solicita login ao tentar curtir sem estar autenticado. |
-| [CT-04](./casosDeTeste/ct-04-contratar-sem-login.md) | Botão Contratar (não logado) | Verifica se o sistema exige login para contratar um herói. |
-| [CT-05](./casosDeTeste/ct-05-curtir-heroi-login-admin.md) | Curtir Herói (Admin) | Valida o funcionamento do botão curtir com conta Admin. |
-| [CT-06](./casosDeTeste/ct-06-curtir-heroi-login-comum.md) | Curtir Herói (Comum) | Valida o funcionamento do botão curtir com conta comum. |
-| [CT-07](./casosDeTeste/ct-07-contratar-heroi-login-admin.md) | Contratar Herói (Admin) | Verifica a ação de contratar quando logado como Admin. |
-| [CT-08](./casosDeTeste/ct-08-contratar-heroi-login-comum.md) | Contratar Herói (Comum) | Verifica a ação de contratar quando logado como usuário comum. |
-| [CT-09](./casosDeTeste/ct-09-criar-novo-heroi.md) | Criar Novo Herói | Garante que é possível criar um herói com dados válidos. |
-| [CT-10](./casosDeTeste/ct-10-deletar-heroi.md) | Deletar Herói | Verifica se o herói pode ser removido corretamente. |
-| [CT-11](./casosDeTeste/ct-11-editar-heroi.md) | Editar Herói | Valida a edição bem-sucedida de um herói existente. |
-| [CT-12](./casosDeTeste/ct-12-editar-heroi-invalido.md) | Editar Herói com Dados Inválidos | Garante que o sistema exibe alerta ao tentar salvar campos obrigatórios vazios. |
+| ID                                                           | Nome                             | Descrição                                                                       |
+| ------------------------------------------------------------ | -------------------------------- | ------------------------------------------------------------------------------- |
+| [CT-01](./casosDeTeste/ct-01-login-admin.md)                 | Login Admin                      | Verifica se o login é realizado corretamente com usuário administrador.         |
+| [CT-02](./casosDeTeste/ct-02-login-comum.md)                 | Login Comum                      | Garante o acesso com credenciais de usuário padrão.                             |
+| [CT-03](./casosDeTeste/ct-03-curtir-sem-login.md)            | Botão Curtir (não logado)        | Verifica se o sistema solicita login ao tentar curtir sem estar autenticado.    |
+| [CT-04](./casosDeTeste/ct-04-contratar-sem-login.md)         | Botão Contratar (não logado)     | Verifica se o sistema exige login para contratar um herói.                      |
+| [CT-05](./casosDeTeste/ct-05-curtir-heroi-login-admin.md)    | Curtir Herói (Admin)             | Valida o funcionamento do botão curtir com conta Admin.                         |
+| [CT-06](./casosDeTeste/ct-06-curtir-heroi-login-comum.md)    | Curtir Herói (Comum)             | Valida o funcionamento do botão curtir com conta comum.                         |
+| [CT-07](./casosDeTeste/ct-07-contratar-heroi-login-admin.md) | Contratar Herói (Admin)          | Verifica a ação de contratar quando logado como Admin.                          |
+| [CT-08](./casosDeTeste/ct-08-contratar-heroi-login-comum.md) | Contratar Herói (Comum)          | Verifica a ação de contratar quando logado como usuário comum.                  |
+| [CT-09](./casosDeTeste/ct-09-criar-novo-heroi.md)            | Criar Novo Herói                 | Garante que é possível criar um herói com dados válidos.                        |
+| [CT-10](./casosDeTeste/ct-10-deletar-heroi.md)               | Deletar Herói                    | Verifica se o herói pode ser removido corretamente.                             |
+| [CT-11](./casosDeTeste/ct-11-editar-heroi.md)                | Editar Herói                     | Valida a edição bem-sucedida de um herói existente.                             |
+| [CT-12](./casosDeTeste/ct-12-editar-heroi-invalido.md)       | Editar Herói com Dados Inválidos | Garante que o sistema exibe alerta ao tentar salvar campos obrigatórios vazios. |
+
 
 ---
 
